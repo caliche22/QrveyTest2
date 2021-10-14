@@ -1,0 +1,84 @@
+.container-searchbox{
+    display: flex;
+    margin-left: 760px;
+    height: 70px;
+    margin: 30px 50px 73px 50px;
+    text-align: left;
+    display: grid;
+    grid-gap: 35px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container-header{
+    display:flex;
+    justify-content: space-between
+}
+
+.input-searchbox{
+width: 510px;
+height: 70px;
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+}
+
+.input-searchbox:focus{
+    outline: none;
+}
+
+.select-searchbox{
+    height: 70px;
+    width: 200px;
+}
+
+.ico-lupa-searchbox{
+    background-color:#21ADCF ;
+    color: #21ADCF;
+    width: 45px;
+}
+
+.ico-flag{
+    width: 18px;
+height: 12px;
+margin-top: 12px;
+margin-right: 10px;
+}
+
+.title-style{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 50px;
+line-height: 59px;
+text-align: left;
+color: #09295E;
+margin-left: 50px;
+margin-top:157px;
+}
+
+.container-input{
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 295px;
+}
+
+.container-searchbox h2{
+    color:#09295E;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+
+.container-searchbox h3{
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+
+.container-imgText{
+    display:flex;
+}

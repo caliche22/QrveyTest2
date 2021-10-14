@@ -1,0 +1,39 @@
+.container-info-countrie{
+    position: absolute;
+width: 886px;
+height: 506px;
+left: 197px;
+top: 551px;
+
+background: #FFFFFF;
+border: 1px solid #E0E0E0;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+}
+
+.container-title-countrie{
+    display:flex
+}
+
+
+.star-style:focus{
+   color: #F2C94C
+}
+
+.img-flag-dtail{
+    width: 180px;
+    height: 120px;
+}
+
+.close-style{
+    margin-left: 760px;
+}
+
+.title-countrie-name{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+}
